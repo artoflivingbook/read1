@@ -687,3 +687,15 @@ strong{
     padding-right: 20px;
     }
 }
+
+
+@media (max-width: 400px) {
+     .book, .middle-button .audible, .pdf, .discourse, .newsletter{
+      padding-left: 2px;
+      padding-right: 2px;
+     }
+    .buttonicon-newsletter{
+        width: 0px;
+    }
+
+}
