@@ -689,13 +689,42 @@ strong{
 }
 
 
+
 @media (max-width: 400px) {
-     .book, .middle-button .audible, .pdf, .discourse, .newsletter{
-      padding-left: 2px;
-      padding-right: 2px;
-     }
     .buttonicon-newsletter{
         width: 0px;
+        margin-right: 0px;
     }
 
+    .book, .middle-button, .audible, .pdf, .discourse, .newsletter{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .button-icon{
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .button-icon-discourse{
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .button-icon-amazon{
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .button-icon-audible{
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .button-icon-pdf{
+        width: 0px;
+        margin-right: 0px;
+    }
 }
+
+
